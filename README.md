@@ -1,15 +1,15 @@
 # LIRI BOT
 
-### Overview
+## Overview
 This application is a Language Interpretation and Recognition Interface to access different information via different API's.
 
-### Setup
+## Setup
 
 Creat a .env file for SPOTIFY_ID, SPOTIFY_SECRET, TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN_KEY, and TWITTER_ACCESS_TOKEN_SECRET with the respective values generated from the API websites for Twitter and Spotify.
 
-### Usage
+## Usage
 
-##### Twitter
+### Twitter
 
 The Twitter functionality is to gather 20 most recent tweets from the user which the API Keys and other sensitive identification is generated from. 
 
@@ -28,7 +28,7 @@ Text:           Second Tweet
 Created:        Thu Jun 28 18:23:02 +0000 2018
 Text:           First Tweet
 ```
-##### Spotify
+### Spotify
 
 The Spotify functionality takes in an environment parameter representing the title and make a `GET` request using the spotify api to gather a list of results associated with the query.
 
@@ -147,7 +147,7 @@ Preview:        https://p.scdn.co/mp3-preview/fdf46a47cbaf363ff9379b4222a74d1ba8
 
 ```
 
-##### OMDB
+### OMDB
 
 The OMDB functionality also takes in a parameter from the environment as the title of the movie. Using a `GET` request, it gathers one result closests to the user-inputted title.
 
@@ -170,7 +170,7 @@ Plot:                   A fast-talking mercenary with a morbid sense of humor is
 Actors:                 Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer
 ```
 
-##### Pre-written commands
+### Pre-written commands
 
 These above functionalities can also be accessed through pre-written command in the `random.txt` file. However, only one command can be written.
 
